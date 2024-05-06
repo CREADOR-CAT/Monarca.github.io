@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(depositphotos_82411686-stock-photo-power-tools-aisle-in-a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+/*cabecera*/
+header{
+    min-width: 1000px;
+    min-height: 130px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 39%, rgba(203,202,202,1) 100%);
+}
+
+#logo img{
+    height: 120px;
+    float: left;
+    margin-top: 1px;
+    margin-left: 20px;
+    animation: 1s entradalogo 1;
+}
+
+#tittle {
+    position: relative;
+    left: 220px;
+    top: 35px;
+    font-size: 45px;
+    animation: 2s entradalogo 1;
+
+}
+
+#logo img:hover {
+    filter: grayscale(100);
+}
+
+
+/*cabecera*/
+
+
+
+
+/*Menu-Horizontal*/
+#horizontal {
+    max-width: 1000;
+    min-height: 50px;
+    background-color: #000;
+}
+
+#horizontal ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+#horizontal a{
+color: white;
+display: block;
+padding: 10px;
+text-decoration: none;
+background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+position: relative;
+left: -90px;
+top: 5px;
+}
+
+#horizontal a:hover{
+    background-color: #069;
+
+}
+
+#horizontal ul ul{
+    display: none;
+    position: absolute;
+}
+
+#horizontal ul li:hover ul{
+    display: block;
+}
+
+
+
+
+/*Menu-Horizontal*/
+
+
+#banner img {
+margin-top: 1px;
+margin-left: -0.5px;
+width: 1065px;
+height: 310px;
+}
+
+
+#banner {
+    min-width: 1000px;
+    min-height: 250px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    height: 310px;
+}
+
+#contenedor{
+    max-width: 1000;
+    min-height: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+
+
+/**menu-vertical**/
+#menu-v{
+    width: 300px;
+    min-height: 700px;
+    background-color: #ccc;
+    float: left;
+}
+
+#menu-v ul{
+list-style: none;
+padding: 10px;
+}
+
+#menu-v a{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: rgb(195,158,34);
+background: linear-gradient(0deg, rgba(195,158,34,1) 28%, rgba(253,187,45,1) 45%);
+}
+
+#menu-v a:hover{
+    color: #131b47;
+    transition: all 1s;
+}
+
+#menu-v a:hover img{
+    animation: 1s rotacion 1;
+}
+
+/**menu-vertical**/
+
+
+
+
+/**Contenido**/
+#contenido{
+    width: 700px;
+    min-height: 700px;
+    background-color: #fff;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#contenido h2{
+    position: relative;
+    left: 290px;
+}
+
+#contenido img {
+    position: relative;
+    left: 20px;
+    float: left;
+    width: 150px;
+    margin: 20px;
+}
+
+#contenido p {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    position: relative;
+    left: 10px;
+    top: 20px;
+    margin: 20px;
+}
+
+/**Contenido**/
+
+
+
+footer{
+    max-width: 1000;
+    background-color: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+
+
+
+
+/*keyframe*/
+
+@keyframes entradalogo {
+    0%{
+        transform: translateY(-200px);
+    }
+}
+
+@keyframes rotacion{
+    0%{
+        transform: rotate(270deg);
+    }
+}
